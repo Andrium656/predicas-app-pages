@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index,follow" />
+<title>Política de Privacidad · Sermons Hub</title>
+<style>
+  :root{
+    --bg:#ffffff; --panel:#f7f7fb; --text:#1e1e1e; --muted:#6b6b76;
+    --border:#e7e7ee; --accent:#4338ca; --accent2:#6d28d9; --link:#4f46e5;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.65; -webkit-font-smoothing:antialiased;
+  }
+  .hero{
+    background:linear-gradient(135deg,var(--accent) 0%,var(--accent2) 100%);
+    color:#fff; padding:56px 24px 40px; text-align:center;
+  }
+  .hero .badge{
+    display:inline-block; font-size:.72rem; letter-spacing:.14em; text-transform:uppercase;
+    background:rgba(255,255,255,.16); padding:6px 14px; border-radius:999px; margin-bottom:16px;
+  }
+  .hero h1{margin:0 0 8px; font-size:1.9rem; font-weight:700}
+  .hero p{margin:0; opacity:.92; font-size:1rem}
+  .tabs{
+    position:sticky; top:0; z-index:10; display:flex; gap:6px; justify-content:center;
+    flex-wrap:wrap; padding:12px 16px; background:rgba(255,255,255,.92);
+    backdrop-filter:saturate(180%) blur(10px); border-bottom:1px solid var(--border);
+  }
+  .tabs button{
+    font:inherit; font-size:.92rem; cursor:pointer; border:1px solid var(--border);
+    background:#fff; color:var(--muted); padding:8px 18px; border-radius:999px; transition:.15s;
+  }
+  .tabs button:hover{border-color:var(--link); color:var(--link)}
+  .tabs button.active{background:var(--link); border-color:var(--link); color:#fff}
+  main{max-width:820px; margin:0 auto; padding:32px 24px 56px}
+  .lang{display:none}
+  .lang.active{display:block; animation:fade .25s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .updated{color:var(--muted); font-size:.88rem; margin:0 0 24px}
+  h2{font-size:1.18rem; margin:34px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--panel)}
+  p{margin:0 0 12px}
+  ul{margin:0 0 14px; padding-inline-start:22px}
+  li{margin:6px 0}
+  a{color:var(--link); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .card{
+    background:var(--panel); border:1px solid var(--border); border-radius:14px;
+    padding:18px 20px; margin:18px 0;
+  }
+  .footer{
+    border-top:1px solid var(--border); margin-top:40px; padding-top:22px;
+    text-align:center; color:var(--muted); font-size:.9rem;
+  }
+  .footer a{margin:0 8px}
+  [dir="rtl"]{text-align:right}
+  [dir="rtl"] ul{padding-inline-start:0; padding-inline-end:22px}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">Sermons Hub</div>
+    <h1 id="title">Política de Privacidad</h1>
+    <p id="subtitle">Tu privacidad es importante para nosotros</p>
+  </header>
+
+  <nav class="tabs" aria-label="Idioma">
+    <button data-lang="es" class="active">Español</button>
+    <button data-lang="en">English</button>
+    <button data-lang="pt">Português</button>
+    <button data-lang="ar">العربية</button>
+  </nav>
+
+  <main>
+    <!-- ESPAÑOL -->
+    <section class="lang active" data-lang="es">
+      <p class="updated">Última actualización: 20 de junio de 2026</p>
+      <p>Esta Política de Privacidad describe cómo <strong>Sermons Hub</strong> ("la App", "nosotros") recopila, usa y protege la información cuando utilizas nuestra aplicación móvil.</p>
+
+      <h2>1. Información que recopilamos</h2>
+      <p>Sermons Hub no requiere crear una cuenta ni recopila tu nombre, dirección ni documentos de identidad. Tratamos los siguientes datos limitados:</p>
+      <ul>
+        <li><strong>Token de notificaciones push:</strong> un identificador del dispositivo generado por el servicio de notificaciones, junto con tu <strong>idioma</strong> y <strong>plataforma</strong>, para enviarte el versículo diario y avisos de nuevas prédicas. Se almacena en Firebase Realtime Database (Google).</li>
+        <li><strong>Identificador publicitario:</strong> utilizado por Google AdMob para mostrar anuncios. Ver la sección de Publicidad.</li>
+        <li><strong>Datos técnicos y de diagnóstico</strong> generados por los servicios de Google (Firebase, AdMob) según sus propias políticas.</li>
+      </ul>
+      <p>El contenido (prédicas, audios, Biblia) se descarga desde nuestros servidores y APIs públicas; leerlo no requiere identificarte.</p>
+
+      <h2>2. Cómo usamos la información</h2>
+      <ul>
+        <li>Enviar notificaciones que has aceptado (versículo diario, nuevas prédicas).</li>
+        <li>Mostrar anuncios que ayudan a mantener la App gratuita.</li>
+        <li>Mantener tus preferencias (idioma, ajustes) en tu dispositivo.</li>
+      </ul>
+
+      <h2>3. Publicidad (Google AdMob)</h2>
+      <p>Mostramos anuncios mediante Google AdMob, que puede usar identificadores del dispositivo para ofrecer anuncios personalizados o no personalizados. En las regiones donde se aplica el RGPD/GDPR, mostramos un formulario de consentimiento antes de cargar anuncios. En iOS solicitamos tu permiso de seguimiento (App Tracking Transparency) antes de usar tu identificador publicitario. Más información: <a href="https://policies.google.com/privacy">Política de Privacidad de Google</a>.</p>
+
+      <h2>4. Servicios de terceros</h2>
+      <ul>
+        <li>Google Firebase (base de datos y notificaciones)</li>
+        <li>Google AdMob (publicidad)</li>
+      </ul>
+      <p>Estos proveedores tratan datos según sus propias políticas de privacidad.</p>
+
+      <h2>5. Notificaciones</h2>
+      <p>Las notificaciones son opcionales. Puedes activarlas o desactivarlas en cualquier momento desde los Ajustes de la App o del sistema operativo.</p>
+
+      <h2>6. Privacidad de menores</h2>
+      <p>La App no está dirigida a menores de 13 años y no recopilamos conscientemente datos personales de ellos.</p>
+
+      <h2>7. Tus derechos</h2>
+      <p>Puedes desactivar las notificaciones y restablecer o limitar tu identificador publicitario desde los ajustes de tu dispositivo. Para solicitar la eliminación de tu token de notificaciones, contáctanos.</p>
+
+      <h2>8. Contacto</h2>
+      <div class="card">Para cualquier consulta sobre esta política, escríbenos a <a href="mailto:joseflorez@montechelo.net">joseflorez@montechelo.net</a>.</div>
+    </section>
+
+    <!-- ENGLISH -->
+    <section class="lang" data-lang="en">
+      <p class="updated">Last updated: June 20, 2026</p>
+      <p>This Privacy Policy explains how <strong>Sermons Hub</strong> ("the App", "we") collects, uses, and protects information when you use our mobile application.</p>
+
+      <h2>1. Information we collect</h2>
+      <p>Sermons Hub does not require an account and does not collect your name, address, or identity documents. We process the following limited data:</p>
+      <ul>
+        <li><strong>Push notification token:</strong> a device identifier generated by the notification service, together with your <strong>language</strong> and <strong>platform</strong>, to deliver the daily verse and new-sermon alerts. Stored in Firebase Realtime Database (Google).</li>
+        <li><strong>Advertising identifier:</strong> used by Google AdMob to serve ads. See the Advertising section.</li>
+        <li><strong>Technical and diagnostic data</strong> generated by Google services (Firebase, AdMob) under their own policies.</li>
+      </ul>
+      <p>Content (sermons, audio, Bible) is downloaded from our servers and public APIs; reading it does not require identifying yourself.</p>
+
+      <h2>2. How we use information</h2>
+      <ul>
+        <li>Send notifications you have opted into (daily verse, new sermons).</li>
+        <li>Display ads that keep the App free.</li>
+        <li>Store your preferences (language, settings) on your device.</li>
+      </ul>
+
+      <h2>3. Advertising (Google AdMob)</h2>
+      <p>We show ads via Google AdMob, which may use device identifiers to serve personalized or non-personalized ads. In regions where GDPR applies, we display a consent form before loading ads. On iOS we request App Tracking Transparency permission before using your advertising identifier. Learn more: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+      <h2>4. Third-party services</h2>
+      <ul>
+        <li>Google Firebase (database and notifications)</li>
+        <li>Google AdMob (advertising)</li>
+      </ul>
+      <p>These providers process data under their own privacy policies.</p>
+
+      <h2>5. Notifications</h2>
+      <p>Notifications are optional. You can enable or disable them at any time from the App settings or your operating system.</p>
+
+      <h2>6. Children's privacy</h2>
+      <p>The App is not directed to children under 13, and we do not knowingly collect personal data from them.</p>
+
+      <h2>7. Your rights</h2>
+      <p>You can disable notifications and reset or limit your advertising identifier from your device settings. To request deletion of your notification token, contact us.</p>
+
+      <h2>8. Contact</h2>
+      <div class="card">For any questions about this policy, email us at <a href="mailto:joseflorez@montechelo.net">joseflorez@montechelo.net</a>.</div>
+    </section>
+
+    <!-- PORTUGUÊS -->
+    <section class="lang" data-lang="pt">
+      <p class="updated">Última atualização: 20 de junho de 2026</p>
+      <p>Esta Política de Privacidade descreve como o <strong>Sermons Hub</strong> ("o App", "nós") coleta, usa e protege as informações quando você utiliza nosso aplicativo móvel.</p>
+
+      <h2>1. Informações que coletamos</h2>
+      <p>O Sermons Hub não exige a criação de conta nem coleta seu nome, endereço ou documentos de identidade. Tratamos os seguintes dados limitados:</p>
+      <ul>
+        <li><strong>Token de notificações push:</strong> um identificador do dispositivo gerado pelo serviço de notificações, junto com seu <strong>idioma</strong> e <strong>plataforma</strong>, para enviar o versículo diário e avisos de novas pregações. Armazenado no Firebase Realtime Database (Google).</li>
+        <li><strong>Identificador de publicidade:</strong> utilizado pelo Google AdMob para exibir anúncios. Consulte a seção Publicidade.</li>
+        <li><strong>Dados técnicos e de diagnóstico</strong> gerados pelos serviços do Google (Firebase, AdMob) conforme suas próprias políticas.</li>
+      </ul>
+      <p>O conteúdo (pregações, áudios, Bíblia) é baixado de nossos servidores e APIs públicas; lê-lo não exige identificação.</p>
+
+      <h2>2. Como usamos as informações</h2>
+      <ul>
+        <li>Enviar notificações que você aceitou (versículo diário, novas pregações).</li>
+        <li>Exibir anúncios que ajudam a manter o App gratuito.</li>
+        <li>Manter suas preferências (idioma, ajustes) no seu dispositivo.</li>
+      </ul>
+
+      <h2>3. Publicidade (Google AdMob)</h2>
+      <p>Exibimos anúncios através do Google AdMob, que pode usar identificadores do dispositivo para oferecer anúncios personalizados ou não personalizados. Nas regiões onde se aplica o RGPD/GDPR, exibimos um formulário de consentimento antes de carregar anúncios. No iOS solicitamos sua permissão de rastreamento (App Tracking Transparency) antes de usar seu identificador de publicidade. Mais informações: <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+
+      <h2>4. Serviços de terceiros</h2>
+      <ul>
+        <li>Google Firebase (banco de dados e notificações)</li>
+        <li>Google AdMob (publicidade)</li>
+      </ul>
+      <p>Esses provedores tratam os dados conforme suas próprias políticas de privacidade.</p>
+
+      <h2>5. Notificações</h2>
+      <p>As notificações são opcionais. Você pode ativá-las ou desativá-las a qualquer momento nos Ajustes do App ou do sistema operacional.</p>
+
+      <h2>6. Privacidade de menores</h2>
+      <p>O App não é destinado a menores de 13 anos e não coletamos conscientemente dados pessoais deles.</p>
+
+      <h2>7. Seus direitos</h2>
+      <p>Você pode desativar as notificações e redefinir ou limitar seu identificador de publicidade nos ajustes do seu dispositivo. Para solicitar a exclusão do seu token de notificações, entre em contato conosco.</p>
+
+      <h2>8. Contato</h2>
+      <div class="card">Para qualquer dúvida sobre esta política, escreva para <a href="mailto:joseflorez@montechelo.net">joseflorez@montechelo.net</a>.</div>
+    </section>
+
+    <!-- العربية -->
+    <section class="lang" data-lang="ar" dir="rtl">
+      <p class="updated">آخر تحديث: 20 يونيو 2026</p>
+      <p>توضّح سياسة الخصوصية هذه كيف يقوم تطبيق <strong>Sermons Hub</strong> ("التطبيق"، "نحن") بجمع المعلومات واستخدامها وحمايتها عند استخدامك لتطبيقنا للهواتف المحمولة.</p>
+
+      <h2>١. المعلومات التي نجمعها</h2>
+      <p>لا يتطلب تطبيق Sermons Hub إنشاء حساب ولا يجمع اسمك أو عنوانك أو وثائق هويتك. نعالج البيانات المحدودة التالية:</p>
+      <ul>
+        <li><strong>رمز الإشعارات (Push token):</strong> معرّف للجهاز يُنشئه خدمة الإشعارات، إلى جانب <strong>لغتك</strong> و<strong>نظام التشغيل</strong>، لإرسال الآية اليومية وتنبيهات العظات الجديدة. يُخزَّن في Firebase Realtime Database من Google.</li>
+        <li><strong>المعرّف الإعلاني:</strong> يستخدمه Google AdMob لعرض الإعلانات. راجع قسم الإعلانات.</li>
+        <li><strong>بيانات تقنية وتشخيصية</strong> تُنشئها خدمات Google (Firebase، AdMob) وفقًا لسياساتها الخاصة.</li>
+      </ul>
+      <p>يتم تنزيل المحتوى (العظات، المقاطع الصوتية، الكتاب المقدس) من خوادمنا وواجهات برمجة التطبيقات العامة؛ ولا تتطلب قراءته تحديد هويتك.</p>
+
+      <h2>٢. كيف نستخدم المعلومات</h2>
+      <ul>
+        <li>إرسال الإشعارات التي وافقت عليها (الآية اليومية، العظات الجديدة).</li>
+        <li>عرض الإعلانات التي تساعد على إبقاء التطبيق مجانيًا.</li>
+        <li>حفظ تفضيلاتك (اللغة، الإعدادات) على جهازك.</li>
+      </ul>
+
+      <h2>٣. الإعلانات (Google AdMob)</h2>
+      <p>نعرض الإعلانات عبر Google AdMob، الذي قد يستخدم معرّفات الجهاز لتقديم إعلانات مخصصة أو غير مخصصة. في المناطق التي تنطبق فيها لائحة حماية البيانات (GDPR)، نعرض نموذج موافقة قبل تحميل الإعلانات. وعلى نظام iOS نطلب إذن التتبّع (App Tracking Transparency) قبل استخدام معرّفك الإعلاني. لمزيد من المعلومات: <a href="https://policies.google.com/privacy">سياسة خصوصية Google</a>.</p>
+
+      <h2>٤. خدمات الجهات الخارجية</h2>
+      <ul>
+        <li>Google Firebase (قاعدة البيانات والإشعارات)</li>
+        <li>Google AdMob (الإعلانات)</li>
+      </ul>
+      <p>تعالج هذه الجهات البيانات وفقًا لسياسات الخصوصية الخاصة بها.</p>
+
+      <h2>٥. الإشعارات</h2>
+      <p>الإشعارات اختيارية. يمكنك تفعيلها أو تعطيلها في أي وقت من إعدادات التطبيق أو نظام التشغيل.</p>
+
+      <h2>٦. خصوصية القاصرين</h2>
+      <p>التطبيق غير موجَّه للأطفال دون سن 13 عامًا، ولا نجمع عن قصد بيانات شخصية منهم.</p>
+
+      <h2>٧. حقوقك</h2>
+      <p>يمكنك تعطيل الإشعارات وإعادة ضبط معرّفك الإعلاني أو الحد منه من إعدادات جهازك. لطلب حذف رمز الإشعارات الخاص بك، يُرجى التواصل معنا.</p>
+
+      <h2>٨. التواصل</h2>
+      <div class="card">لأي استفسار حول هذه السياسة، راسلنا على <a href="mailto:joseflorez@montechelo.net">joseflorez@montechelo.net</a>.</div>
+    </section>
+
+    <div class="footer">
+      <a href="../">Inicio</a> · <a href="../support/">Soporte / Support</a>
+      <p>© 2026 Sermons Hub</p>
+    </div>
+  </main>
+
+<script>
+  var titles={
+    es:{t:"Política de Privacidad",s:"Tu privacidad es importante para nosotros"},
+    en:{t:"Privacy Policy",s:"Your privacy matters to us"},
+    pt:{t:"Política de Privacidade",s:"A sua privacidade é importante para nós"},
+    ar:{t:"سياسة الخصوصية",s:"خصوصيتك تهمّنا"}
+  };
+  var buttons=document.querySelectorAll('.tabs button');
+  var sections=document.querySelectorAll('.lang');
+  buttons.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var lang=btn.getAttribute('data-lang');
+      buttons.forEach(function(b){b.classList.toggle('active',b===btn)});
+      sections.forEach(function(s){s.classList.toggle('active',s.getAttribute('data-lang')===lang)});
+      document.documentElement.lang=lang;
+      document.documentElement.dir = lang==='ar' ? 'rtl' : 'ltr';
+      document.getElementById('title').textContent=titles[lang].t;
+      document.getElementById('subtitle').textContent=titles[lang].s;
+    });
+  });
+</script>
+</body>
+</html>
